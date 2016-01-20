@@ -10,11 +10,11 @@
 		1C05BAB51C4FAB8F0062DA7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C05BAB41C4FAB8F0062DA7F /* main.m */; };
 		1C05BAB81C4FAB8F0062DA7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C05BAB71C4FAB8F0062DA7F /* AppDelegate.m */; };
 		1C05BABB1C4FAB8F0062DA7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C05BABA1C4FAB8F0062DA7F /* ViewController.m */; };
-		1C05BABE1C4FAB8F0062DA7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C05BABC1C4FAB8F0062DA7F /* Main.storyboard */; };
 		1C05BAC01C4FAB8F0062DA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C05BABF1C4FAB8F0062DA7F /* Assets.xcassets */; };
 		1C05BAC31C4FAB8F0062DA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C05BAC11C4FAB8F0062DA7F /* LaunchScreen.storyboard */; };
 		1C05BACE1C4FAB8F0062DA7F /* Car_Sub_ImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C05BACD1C4FAB8F0062DA7F /* Car_Sub_ImageTests.m */; };
 		1C05BAD91C4FAB8F0062DA7F /* Car_Sub_ImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C05BAD81C4FAB8F0062DA7F /* Car_Sub_ImageUITests.m */; };
+		1C05BAE71C4FAB9B0062DA7F /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C05BAE61C4FAB9B0062DA7F /* car.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		1C05BAB71C4FAB8F0062DA7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1C05BAB91C4FAB8F0062DA7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1C05BABA1C4FAB8F0062DA7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1C05BABD1C4FAB8F0062DA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C05BABF1C4FAB8F0062DA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C05BAC21C4FAB8F0062DA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C05BAC41C4FAB8F0062DA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		1C05BAD41C4FAB8F0062DA7F /* Car Sub ImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car Sub ImageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C05BAD81C4FAB8F0062DA7F /* Car_Sub_ImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car_Sub_ImageUITests.m; sourceTree = "<group>"; };
 		1C05BADA1C4FAB8F0062DA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C05BAE61C4FAB9B0062DA7F /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				1C05BAB71C4FAB8F0062DA7F /* AppDelegate.m */,
 				1C05BAB91C4FAB8F0062DA7F /* ViewController.h */,
 				1C05BABA1C4FAB8F0062DA7F /* ViewController.m */,
-				1C05BABC1C4FAB8F0062DA7F /* Main.storyboard */,
+				1C05BAE61C4FAB9B0062DA7F /* car.png */,
 				1C05BABF1C4FAB8F0062DA7F /* Assets.xcassets */,
 				1C05BAC11C4FAB8F0062DA7F /* LaunchScreen.storyboard */,
 				1C05BAC41C4FAB8F0062DA7F /* Info.plist */,
@@ -245,7 +245,7 @@
 			files = (
 				1C05BAC31C4FAB8F0062DA7F /* LaunchScreen.storyboard in Resources */,
 				1C05BAC01C4FAB8F0062DA7F /* Assets.xcassets in Resources */,
-				1C05BABE1C4FAB8F0062DA7F /* Main.storyboard in Resources */,
+				1C05BAE71C4FAB9B0062DA7F /* car.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1C05BABC1C4FAB8F0062DA7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C05BABD1C4FAB8F0062DA7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1C05BAC11C4FAB8F0062DA7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
