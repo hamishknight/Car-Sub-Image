@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SubImageView : UIImageView
+@interface UIImageView (UIImageViewSubImage)
 
 /// Transforms a rect from image coordinates to view coordinates, when the UIViewContentModeScaleAspectFit content mode is used.
 -(CGRect) rectForApsectFitImageRect:(CGRect)rect;

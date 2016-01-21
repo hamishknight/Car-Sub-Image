@@ -15,7 +15,7 @@
 		1C05BACE1C4FAB8F0062DA7F /* Car_Sub_ImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C05BACD1C4FAB8F0062DA7F /* Car_Sub_ImageTests.m */; };
 		1C05BAD91C4FAB8F0062DA7F /* Car_Sub_ImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C05BAD81C4FAB8F0062DA7F /* Car_Sub_ImageUITests.m */; };
 		1C05BAE71C4FAB9B0062DA7F /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C05BAE61C4FAB9B0062DA7F /* car.png */; };
-		1C4A30721C4FE25A00BC6BE4 /* SubImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A30711C4FE25A00BC6BE4 /* SubImageView.m */; };
+		1C4A30721C4FE25A00BC6BE4 /* UIImageView + Sub Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A30711C4FE25A00BC6BE4 /* UIImageView + Sub Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		1C05BAD81C4FAB8F0062DA7F /* Car_Sub_ImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car_Sub_ImageUITests.m; sourceTree = "<group>"; };
 		1C05BADA1C4FAB8F0062DA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C05BAE61C4FAB9B0062DA7F /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
-		1C4A30701C4FE25A00BC6BE4 /* SubImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubImageView.h; sourceTree = "<group>"; };
-		1C4A30711C4FE25A00BC6BE4 /* SubImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubImageView.m; sourceTree = "<group>"; };
+		1C4A30701C4FE25A00BC6BE4 /* UIImageView + Sub Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView + Sub Image.h"; sourceTree = "<group>"; };
+		1C4A30711C4FE25A00BC6BE4 /* UIImageView + Sub Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView + Sub Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				1C05BAB71C4FAB8F0062DA7F /* AppDelegate.m */,
 				1C05BAB91C4FAB8F0062DA7F /* ViewController.h */,
 				1C05BABA1C4FAB8F0062DA7F /* ViewController.m */,
-				1C4A30701C4FE25A00BC6BE4 /* SubImageView.h */,
-				1C4A30711C4FE25A00BC6BE4 /* SubImageView.m */,
+				1C4A30701C4FE25A00BC6BE4 /* UIImageView + Sub Image.h */,
+				1C4A30711C4FE25A00BC6BE4 /* UIImageView + Sub Image.m */,
 				1C05BAE61C4FAB9B0062DA7F /* car.png */,
 				1C05BABF1C4FAB8F0062DA7F /* Assets.xcassets */,
 				1C05BAC11C4FAB8F0062DA7F /* LaunchScreen.storyboard */,
@@ -276,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C05BABB1C4FAB8F0062DA7F /* ViewController.m in Sources */,
-				1C4A30721C4FE25A00BC6BE4 /* SubImageView.m in Sources */,
+				1C4A30721C4FE25A00BC6BE4 /* UIImageView + Sub Image.m in Sources */,
 				1C05BAB81C4FAB8F0062DA7F /* AppDelegate.m in Sources */,
 				1C05BAB51C4FAB8F0062DA7F /* main.m in Sources */,
 			);

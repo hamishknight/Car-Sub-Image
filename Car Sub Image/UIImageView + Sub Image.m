@@ -6,9 +6,9 @@
 //  Copyright © 2016 Redonkulous Apps. All rights reserved.
 //
 
-#import "SubImageView.h"
+#import "UIImageView + Sub Image.h"
 
-@implementation SubImageView
+@implementation UIImageView (UIImageViewSubImage)
 
 -(CGRect) rectForApsectFitImageRect:(CGRect)rect {
     
